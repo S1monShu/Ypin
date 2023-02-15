@@ -1,0 +1,126 @@
+*{    
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    font-family: 'Unbounded', cursive;
+    height: 100%;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.side_image_login{
+    width: 50%;
+    height: 100%;
+    background-image: url(img/unsplash_gt7C42J1P6g.png);
+    background-size: cover;
+}
+
+.side_image_register{
+    width: 50%;
+    height: 100%;
+    background-image: url(img/unsplash_3aqsL-DEi3A.png);
+    background-size: cover;
+}
+
+.form_container_login{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(img/Blobs.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.form_container_register{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(img/Blobs2.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+h4{
+    cursor: default;
+    font-size: 40px;
+    margin-bottom: 45px;
+}
+
+form{
+    position: relative;
+    width: 449px;
+}
+
+input{
+    width: 449px;   
+    font-family: 'Unbounded', cursive;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+    height: 30px;
+    border: 1px solid #767676;
+    border-style: hidden;
+    border-bottom-style: solid;
+    outline: none;
+}
+
+input:focus{
+    border: 1px solid #BE3455;
+    border-style: hidden;
+    border-bottom-style: solid;
+}
+
+input::placeholder{
+    font-family: 'Unbounded', cursive;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.login{
+    margin-top: 0;
+}
+
+button{
+    cursor: pointer;
+    font-family: 'Unbounded', cursive;
+    color: white;
+    background-color: #BE3455;
+    font-size: 16px;
+    font-weight: 400;
+    height: 50px;
+    width: 444px;
+    border-radius: 100px;
+    border: none;
+    margin-top: 78px;
+}
+
+button:hover{
+    background-color: #8B263E;
+}
+
+p{
+    cursor: default;
+    margin-top: 15px;
+    text-align: center;
+}
+
+a{
+    color: #BE3455;
+}
+
